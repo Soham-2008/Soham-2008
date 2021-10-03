@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="bond.png">
+    <title>2021 Best Buddy Meter</title>
+    <style>
+        body {
+
+            padding: 10px;
+            padding-bottom: 100px;
+            background-color: #262E4A;
+        }
+
+        #central_box {
+
+            background-color: #272F4B;
+            width: 50%;
+            height: 400px;
+            margin-top: -400px;
+            margin-left: 25%;
+            box-shadow: 0px 0px 5px rgb(13, 9, 19);
+
+        }
+
+        #box1 {
+
+            width: 25%;
+            height: 400px;
+
+        }
+
+        #box2 {
+
+            width: 25%;
+            height: 400px;
+            margin-top: -800px;
+            margin-right: 25%;
+
+        }
+        
+        #img{
+
+            width: 50px;
+            height: 50px;
+            margin-top: 25px;
+            
+        }
+        h1{
+
+            font-family: Bahnschrift Light;
+            font-size: 27px;
+            margin-top: 5px;
+            color: #DEA976;
+            text-align: center;
+        }
+        h2{
+
+            font-family: Bahnschrift Light;
+            font-size: 18px;
+            margin-top: 10px;
+            color: #7D8CB7;
+            margin-left: 20px;
+            text-align: left;
+        }
+        input{
+
+            background-color: #2E344E;
+            height: 45px;
+            width: 89.66%;
+            border: 1px solid black;
+            font-size: 18px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-family: Bahnschrift Light;
+            border-radius: 5px;
+
+        }
+        input:focus{
+
+            outline: none;
+            color: white;
+        }
+        button{
+
+            background-color: #191F35;
+            border: none;
+            font: 16px sans-serif;
+            color: white;
+            width: 155.8px;
+            height: 36px;
+            border-radius: 6px;
+            margin-top: 20px;
+
+        }
+        button:hover{
+
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function redirect(){
+
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            
+        }
+    </script>
+</head>
+
+<body>
+    <div id="box1"></div>
+    <div id="central_box">
+        <center><img id="img" src="bond.png">
+        <h1>2021 Best Buddy Meter</h1>
+        <h2>Enter your Full Name</h2>
+        <input placeholder="Full Name" maxlength="30" type="text">
+        <button onclick="redirect()">👉Start👈</button>
+    </center>
+    </div>
+    <div id="box2"></div>
+</body>
+
+</html>
